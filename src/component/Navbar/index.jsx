@@ -5,8 +5,14 @@ const Navbar = () => {
         <div style={{display: 'flex', gap: '10px'}}>
            <Link to='/'>Home</Link>
            <Link to='/about-us'>About Us</Link>
-
-           <Link to='/login'>Login</Link>
+           <Link to='/auth'>Auth</Link>
+            <Link to='/file'>File</Link>
+            <Link to='/profil'>Profil</Link>
+            <Link to='/sportcategory'>Sport Category</Link>
+            <Link to='/location'>Location</Link>
+            <Link to='/sportactiviy'>Sport Activity</Link>
+            <Link to='/paymentmethod'>Payment Method</Link>
+            <Link to='/transaction'>Transaction</Link>
         </div>
     );
 }
